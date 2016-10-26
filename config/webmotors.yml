@@ -1,0 +1,4 @@
+development:
+  url: "http://www.webmotors.com.br"
+test:
+  url: "http://www.webmotors.com.br"

@@ -1,0 +1,4 @@
+<%= form_tag('/models', method: 'GET') do -%>
+  <%= select_tag "webmotors", options_from_collection_for_select(@makes, "webmotors_id", "name") %>
+  <div><%= submit_tag 'Save' %></div>
+<% end -%>
